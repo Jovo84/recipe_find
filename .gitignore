@@ -1,0 +1,8 @@
+venv/
+.idea/
+.DS_Store
+.env
+*.pyc
+.run.py.swp
+feelgoodwizard_app/config/env.py
+feelgoodwizard_app/config/test.py
