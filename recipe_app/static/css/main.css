@@ -460,6 +460,7 @@ span{
   margin-right: auto;
   max-width: 850px;
   color: black;
+  min-height: 50vh;
 }
 
 .signIn{
@@ -468,6 +469,7 @@ span{
   margin-right: auto;
   max-width: 850px;
   color: black;
+  min-height: 50vh;
 }
 
 .containerTerms{
