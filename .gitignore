@@ -4,5 +4,5 @@ venv/
 .env
 *.pyc
 .run.py.swp
-feelgoodwizard_app/config/env.py
-feelgoodwizard_app/config/test.py
+recipe_app/config/env.py
+recipe_app/config/test.py
