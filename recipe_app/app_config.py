@@ -1,4 +1,4 @@
-from setup_app.config.config import Config
+from recipe_app.config.config import Config
 
 
 class APPConfig():

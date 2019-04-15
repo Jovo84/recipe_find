@@ -1,7 +1,7 @@
-from setup_app.server import app
+from recipe_app.server import app
 
-from setup_app.api.api_controller import api
-from setup_app.web.web_controller import web
+from recipe_app.api.api_controller import api
+from recipe_app.web.web_controller import web
 
 # Register blueprints
 
