@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include('includes/head.html')%}
+
+<body>
+
+{% include('includes/header.html')%}
+
+{% include('includes/navbar.html')%}
+
+
+<div class="heading">
+  <div class="innerHeading">
+    <h1 class="titleStrongBold">Welcome to your recipe community.</h1>
+     <p>Search 1000's of recipes that take under 20 minutes!, Our food ontology and semantic recipe search engine makes it possible to search for recipes such as "gluten free brownies without sugar" or "low fat vegan cupcakes." You can also automatically calculate the nutritional information for any recipe.</p>
+      <div class="imgContainerContent">
+          <div class="imgContainerContent1 card">
+              <div class="fav-holder">
+              <img  src="{{url_for('static', filename='img/heart.png')}}" alt="fav-empty">
+                  <img  class="hide" src="{{url_for('static', filename='img/heart2.png')}}" alt="fav-full">
+              </div>
+
+              <img src="https://dummyimage.com/271x180/000/fff">
+              <p class="title-bold">Tacos With Lime </p>
+              <p class="subscribe" name="signup">Subscribe</p>
+              <p class="description">Ready in: 20min <br>Servings: 4</p>
+          </div>
+
+
+          <div class="imgContainerContent2 card">
+              <div class="fav-holder">
+              <img  src="{{url_for('static', filename='img/heart.png')}}" alt="fav-empty">
+                  <img class="hide" src="{{url_for('static', filename='img/heart2.png')}}" alt="fav-full">
+              </div>
+              <img src="https://dummyimage.com/271x180/000/fff">
+              <p class="title-bold">Spinach, Chicken &amp; Pomegranate Salad</p>
+              <p class="subscribe" name="signup">Subscribe</p>
+              <p class="description">Ready in: 20min <br>Servings: 2</p>
+          </div>
+
+          <div class="imgContainerContent3 card">
+              <div class="fav-holder">
+              <img  src="{{url_for('static', filename='img/heart.png')}}" alt="fav-empty">
+                  <img  class="hide" src="{{url_for('static', filename='img/heart2.png')}}" alt="fav-full">
+              </div>
+              <img src="https://dummyimage.com/271x180/000/fff">
+              <p class="title-bold">Fried Fish With Vegetables</p>
+              <p class="subscribe" name="signup">Subscribe</p>
+              <p class="description">Ready in: 20min <br>Servings: 4</p>
+          </div>
+
+
+      </div>
+  </div>
+</div>
+
+
+<div class="content">
+      <div>
+      <h1>Recipes under 20 minutes!</h1>
+      <p>Short on time? These quick meals are ready in less than 20 minutes, making them perfect for midweek dinners and last-minute lunches.</p>
+     </div>
+</div>
+
+<div class="container">
+    <div class="container0">
+      <h1>Top rated recipes</h1>
+      <a href="/signup" class="recipesButton">View All Recipes</a>
+    </div>
+    <div class="container1 card">
+        <div class="fav-holder">
+              <img src="{{url_for('static', filename='img/heart.png')}}" alt="fav-empty">
+            <img  class="hide" src="{{url_for('static', filename='img/heart2.png')}}" alt="fav-full">
+        </div>
+              <img src="https://dummyimage.com/271x180/000/fff">
+              <p class="title-bold">Shrimp Veggie Salad</p>
+              <p class="subscribe" name="signup">Subscribe</p>
+              <p class="description">Ready in: 20min <br>Servings: 6</p>
+
+    </div>
+
+     <div class="container2 card">
+        <div class="fav-holder">
+              <img src="{{url_for('static', filename='img/heart.png')}}" alt="fav-empty">
+            <img  class="hide" src="{{url_for('static', filename='img/heart2.png')}}" alt="fav-full">
+        </div>
+              <img src="https://dummyimage.com/271x180/000/fff">
+              <p class="title-bold">Blueberry, Ginger, and Kefir Smoothie</p>
+              <p class="subscribe" name="signup">Subscribe</p>
+              <p class="description">Ready in: 5min <br>Servings: 1</p>
+
+    </div>
+
+     <div class="container3 card">
+        <div class="fav-holder">
+              <img src="{{url_for('static', filename='img/heart.png')}}" alt="fav-empty">
+            <img  class="hide" src="{{url_for('static', filename='img/heart2.png')}}" alt="fav-full">
+        </div>
+              <img src="https://dummyimage.com/271x180/000/fff">
+              <p class="title-bold">Pancakes With Blueberries </p>
+              <p class="subscribe" name="signup">Subscribe</p>
+              <p class="description">Ready in: 15min <br>Servings: 6</p>
+
+    </div>
+
+     <div class="container4 card">
+        <div class="fav-holder">
+              <img src="{{url_for('static', filename='img/heart.png')}}" alt="fav-empty">
+            <img  class="hide" src="{{url_for('static', filename='img/heart2.png')}}" alt="fav-full">
+        </div>
+              <img src="https://dummyimage.com/271x180/000/fff">
+              <p class="title-bold">Chocolate Fridge Cake</p>
+              <p class="subscribe" name="signup">Subscribe</p>
+              <p class="description">Ready in: 15min <br>Servings: 16</p>
+
+    </div>
+
+     <div class="container5 card">
+        <div class="fav-holder">
+              <img src="{{url_for('static', filename='img/heart.png')}}" alt="fav-empty">
+            <img class="hide" src="{{url_for('static', filename='img/heart2.png')}}" alt="fav-full">
+        </div>
+              <img src="https://dummyimage.com/271x180/000/fff">
+              <p class="title-bold">Fresh Hummus And Pita Bread</p>
+              <p class="subscribe" name="signup">Subscribe</p>
+              <p class="description">Ready in: 20min <br>Servings: 4</p>
+
+    </div>
+
+    <div class="container6 card">
+        <div class="fav-holder">
+              <img src="{{url_for('static', filename='img/heart.png')}}" alt="fav-empty">
+            <img  class="hide" src="{{url_for('static', filename='img/heart2.png')}}" alt="fav-full">
+        </div>
+              <img src="https://dummyimage.com/271x180/000/fff">
+              <p class="title-bold"> Avocado & Basil Breakfast bruschetta</p>
+              <p class="subscribe" name="signup">Subscribe</p>
+              <p class="description">Ready in: 8min <br>Servings: 4</p>
+
+    </div>
+
+</div>
+
+
+<footer>
+  <div class="footer">
+    <div class="footer1">
+      <img src="{{url_for('static', filename='img/logo_white.png')}}">
+      <a href="/terms">Terms</a>
+      <a href="/privacy">Privacy Policy</a>
+    </div>
+    <div class="footer2">
+      <h3>Recent Recipes</h3>
+      <div class="recentR"><img src="https://dummyimage.com/50x50/#FFFFF/fff.png"><span><a href="/signup"> 12-Minute Chicken and Broccoli</a></span></div>
+      <div class="recentR"><img src="https://dummyimage.com/50x50/#FFFFF/fff.png"><span><a href="/signup"> Bacon, Egg, and Cheese Breakfast Burger</a></span></div>
+      <div class="recentR"><img src="https://dummyimage.com/50x50/#FFFFF/fff.png"><span><a href="/signup"> Chocolate Chip Cookies</a></span></div>
+    </div>
+    <div class="footer3">
+      <h1 class="capsFooter"><img src={{url_for('static', filename='img/leaf-icon-23.png')}}>CONTACT</h1>
+      Tel: <a href="tel:0208 089 5632">0208 089 5632</a><br>
+      Email: <a href="mailto:support@recipefind.co.uk">support@recipefind.co.uk</a><br>
+      Service Provided by Granzo Holdings Ltd
+    </div>
+     <div class="footer4">
+       <h3>Copyright @2019 Recipefind</h3>
+     </div>
+  </div>
+</footer>
+
+<script src="{{url_for('static', filename='js/start.js')}}"></script>
+
+
+</body>
+</html>
